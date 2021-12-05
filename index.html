@@ -15,9 +15,15 @@
 </head>
 
 <body>
+    <span class="upload__img">
+        <label for="upload-file">
+            <ion-icon name="camera"></ion-icon>
+        </label>
+        <input type="file" hidden name="" id="upload-file">
+    </span>
     <div class="card">
         <div class="card__img">
-            <img src="./img/profile.jpg" alt="">
+            <img id="card-img" src="./img/profile.jpg" alt="">
         </div>
         <h2 class="card__name">ANH THU</h2>
         <p class="card__name--sub">Kelly Helen</p>
@@ -46,6 +52,7 @@
             <button class="card__button">Contact me</button>
         </a>
     </div>
+    <script src="./script.js"></script>
 </body>
 
 </html>
